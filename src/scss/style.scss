@@ -1,0 +1,21 @@
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(#ffdc82, #f2ebd8, #ffdc82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  font-size: large;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border: 0;
+  background-color: #ffb907;
+  color: white;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: azure;
+  color: #ffb907;
+}
