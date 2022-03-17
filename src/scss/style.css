@@ -29,4 +29,25 @@ button:hover {
   background-color: azure;
   color: #ffb907;
 }
+
+.single-option {
+  font-size: 1.3em;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.single-option input {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+}
 /*# sourceMappingURL=style.css.map */

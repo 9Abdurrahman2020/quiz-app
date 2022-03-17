@@ -19,3 +19,18 @@ button:hover {
   background-color: azure;
   color: #ffb907;
 }
+.single-option {
+  font-size: 1.3em;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.single-option input {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+}
