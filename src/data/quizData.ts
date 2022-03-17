@@ -1,7 +1,7 @@
 export const quizData:quizData[] = [
     {
         name:"What is the capital of Bangladesh?",
-        options: ["Dhaka","Chottogram","Comilla","Sylhet"],
+        options: ["Dhaka","Chittagong","Comilla","Sylhet"],
         quizId: 1
     },
     {
@@ -16,7 +16,7 @@ export const quizData:quizData[] = [
     },
     {
         name:"What is the longest sea beach in the world?",
-        options: ["Koh Kradan","St George Beach","Cox's Bazar","Yyteri, Pori"],
+        options: ["Koh Kradan","Cox's Bazar","St George Beach","Yyteri, Pori"],
         quizId: 4
     },
     {
