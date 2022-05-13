@@ -12,7 +12,7 @@ const Main = () => {
     return (
     <div className='main-container'>
       {
-        answer ? <Answer/> : isQuizStart ? <Quiz/> :<button onClick={ ()=>dispatch(startQuiz())} >Start Quiz</button>
+        answer ? <Answer/> : isQuizStart ? <Quiz /> :<button onClick={ ()=>dispatch(startQuiz())} >Start Quiz</button>
       }
     </div>
     );

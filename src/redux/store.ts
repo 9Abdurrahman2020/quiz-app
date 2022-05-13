@@ -9,6 +9,7 @@ import quizReducer from "./reducers/quizReducer";
 const persistConfig = {
     key: 'quiz',
     storage,
+    version:1
   }
  
 const persistedReducer = persistReducer(persistConfig, quizReducer)
@@ -20,4 +21,5 @@ export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;
 export const useAppDispatch = () => useDispatch<AppDispatch>();
 export const persistor = persistStore(store);
 export default store;
+
 
